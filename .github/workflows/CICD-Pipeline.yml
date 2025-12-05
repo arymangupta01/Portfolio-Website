@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  compile:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
